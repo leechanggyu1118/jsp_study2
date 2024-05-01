@@ -45,7 +45,7 @@
 		<!-- DB에서 가져온 리스트를  c:foreach를 통해서 반복출력  -->
 		<c:forEach items="${list }" var="bvo">
 			<tr>
-				<td>${bvo.bno }</td>
+				<td><a href="/brd/detail?bno=${bvo.bno }">${bvo.bno }</a></td>
 				<td><a href="/brd/detail?bno=${bvo.bno }"> <img alt="" src="/_fileUpload/_th_${bvo.imageFile }"> ${bvo.title }</a></td>
 				<td>${bvo.writer }</td>
 				<td>${bvo.regdate }</td>

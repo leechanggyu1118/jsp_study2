@@ -37,6 +37,10 @@
 			<th>Content</th>
 			<td>${bvo.content}</td>
 		</tr>
+		<tr>
+			<th>ImageFile</th>
+			<td><img alt="" src="/_fileUpload/_th_${bvo.imageFile }">${bvo.imageFile}</td>
+		</tr>
 	</table>
 	
 	<a href="/brd/list"> <button type="button" class="btn btn-dark">게시판 페이지</button> </a>
